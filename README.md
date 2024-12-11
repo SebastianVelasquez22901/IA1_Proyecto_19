@@ -232,5 +232,5 @@ export default Chatbox;
 
 Para interactuar con el **chatbot** solo es necesario escribir un mensaje y presionar el botón de **enviar**
 
-![UI](./ui.png)
+![UI](./ui.jpeg)
 
