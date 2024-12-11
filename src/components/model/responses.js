@@ -1,97 +1,172 @@
 const responses = {
-  greeting: "¡Hola! ¿Cómo puedo ayudarte hoy?",
-  goodbye: "¡Adiós! ¡Que tengas un gran día!",
-  thanks: "¡De nada! Si tienes alguna otra pregunta, no dudes en preguntar.",
-  product_inquiry:
-    "Ofrecemos una variedad de productos, incluyendo electrónicos, libros, ropa y más. ¿En qué categoría estás interesado?",
-  order_status:
-    "Por favor, proporciona tu ID de pedido y con gusto verificaré el estado para ti.",
-  shipping_info:
-    "Ofrecemos varios métodos de envío, incluyendo estándar, exprés y entrega al día siguiente. Los tiempos y costos dependen del método elegido y tu ubicación.",
-  return_policy:
-    "Nuestra política de devoluciones permite devolver productos dentro de los 30 días posteriores a la compra. Visita nuestra página de devoluciones para más detalles.",
-  payment_methods:
-    "Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias. Elige el método que prefieras al finalizar tu compra.",
-  support_contact:
-    "Puedes contactarnos por correo a soporte@ejemplo.com o llamarnos al 1-800-123-4567. También contamos con chat en línea.",
-  business_hours:
-    "Nuestro horario de atención es de lunes a viernes de 9:00 AM a 5:00 PM. Cerramos fines de semana y días festivos.",
-  promotions:
-    "Actualmente contamos con ofertas en varias categorías. Visita nuestra sección de promociones para más detalles.",
-  account_help:
-    "Para asistencia con tu cuenta, puedes recuperar contraseñas olvidadas, actualizar información personal o eliminar tu cuenta desde el panel de usuario.",
-  feedback:
-    "¡Gracias por compartir tu opinión! Puedes dejar comentarios o sugerencias en nuestra sección de contacto.",
-  technical_support:
-    "Lamentamos los inconvenientes. Por favor, describe el problema técnico y haremos todo lo posible para ayudarte.",
-  product_recommendation:
-    "Con gusto te ayudaremos a elegir un producto. Por favor, cuéntanos tus necesidades o preferencias.",
-  order_cancellation:
-    "Para cancelar un pedido, por favor proporciona tu ID de pedido. Verificaremos el estado y procederemos si es posible.",
-  promotions_and_discounts:
-    "Consulta nuestras ofertas y promociones actuales en la sección de descuentos de nuestra página web.",
-  cuentaChiste:
-    "¡Claro! Aquí tienes uno: ¿Por qué el libro de matemáticas estaba triste? ¡Porque tenía demasiados problemas!",
-  firmativo: "¡Perfecto! Me alegra que estés de acuerdo.",
-  negativo: "Entendido. Si necesitas algo más, no dudes en decírmelo.",
-  gracias: "¡Es un placer ayudarte! Estoy aquí para lo que necesites.",
-  despedida: "¡Hasta pronto! Cuídate mucho.",
-  desconocido:
-    "Mmm, no estoy segura de cómo responder a eso. ¿Puedes darme más detalles o preguntar algo diferente?",
-  weather_inquiry:
-    "El clima depende de tu ubicación. Puedes verificar el pronóstico en tu región específica con una app del tiempo.",
-  motivational_quote:
-    "“El éxito no se mide por lo que logras, sino por los obstáculos que superas en el camino.” ¡Tú puedes lograrlo!",
-  fun_fact:
-    "¿Sabías que el corazón humano late más de 100,000 veces al día? ¡Increíble, ¿verdad?!",
-  trivia_question:
-    "¿Sabes cuál es el animal terrestre más rápido del mundo? ¡El guepardo, que puede alcanzar hasta 112 km/h!",
-  joke_request:
-    "¡Claro! ¿Por qué el tomate fue al banco? ¡Porque quería ketchup!",
-  health_tips:
-    "Bebe al menos 8 vasos de agua al día y asegúrate de dormir entre 7 y 8 horas para mantener tu cuerpo y mente saludables.",
-  cooking_recipe:
-    "¡Aquí tienes una receta rápida de panqueques! Mezcla 1 taza de harina, 1 taza de leche, 1 huevo y una pizca de sal. Cocina en una sartén caliente y disfruta.",
-  story_request:
-    "¡Claro! Había una vez un pequeño pájaro que soñaba con volar más alto que las nubes. Aunque todos dudaban de él, practicó día tras día hasta que un día, llegó más allá de lo que nadie había imaginado.",
-  language_learning:
-    '¡Por supuesto! En inglés, "Hola, ¿cómo estás?" se dice "Hello, how are you?". ¿Te gustaría aprender más frases?',
-  workout_tips:
-    "Empieza con ejercicios simples como caminar, sentadillas y planchas. Dedica 20 minutos al día para construir el hábito. ¡Tu cuerpo te lo agradecerá!",
-  tech_news:
-    "Recientemente, se lanzaron avances en inteligencia artificial que prometen revolucionar la industria de la salud. ¿Te interesa saber más sobre alguna tecnología específica?",
-  mindfulness_tips:
-    "Dedica 5 minutos a la respiración consciente: inhala profundamente por la nariz durante 4 segundos, retén el aire por 7, y exhala lentamente por 8. Es un gran inicio.",
-  book_recommendations:
-    'Si te gustan las novelas emocionantes, te recomiendo "Cien años de soledad" de Gabriel García Márquez. Para algo más reciente, prueba "Sapiens" de Yuval Noah Harari.',
-  pet_care:
-    "Para cuidar a tu mascota, asegúrate de ofrecerle comida adecuada, ejercicio regular y visitas al veterinario. ¡El amor y la paciencia también son clave!",
-  movie_recommendations:
-    'Si buscas acción, prueba "Inception". Para una comedia, "The Grand Budapest Hotel". Y si prefieres algo emotivo, "La vida es bella" es una gran elección.',
-  DIY_projects:
-    "Puedes crear un estante flotante con madera y clavos, o hacer velas aromáticas caseras. Son proyectos fáciles y divertidos para empezar.",
-  financial_advice:
-    "Empieza creando un presupuesto mensual, separa un porcentaje para ahorrar y evita compras impulsivas. Considera también invertir en educación financiera.",
-  life_hacks:
-    "¿Sabías que usar una pinza de ropa para sostener un clavo facilita el martillado? ¡Pequeños trucos hacen una gran diferencia!",
-  gardening_tips:
-    "Riega tus plantas por la mañana para evitar la evaporación rápida, y asegúrate de darles suficiente luz solar según sus necesidades.",
-  current_events:
-    "Para estar al día con las noticias, revisa las últimas actualizaciones en un portal de confianza o pregunta sobre un tema específico que te interese.",
-  travel_tips:
-    "Planifica con anticipación, lleva solo lo necesario y revisa los requisitos de viaje de tu destino. ¡Siempre lleva un botiquín básico y una copia de tus documentos!",
-  cooking_recipes:
-    "Prueba hacer una pasta con salsa al pesto o un pollo al horno con especias. Ambos son fáciles y deliciosos. ¿Quieres más detalles?",
-  exercise_ideas:
-    "Comienza con 10 minutos de estiramientos, sigue con sentadillas, flexiones y planchas. ¡Incrementa la intensidad según te sientas cómodo!",
-  motivational_quotes:
-    '"El éxito es la suma de pequeños esfuerzos repetidos día tras día." - ¡No te rindas, vas por buen camino!',
-  parenting_tips:
-    "Escucha a tus hijos con atención, establece límites claros y dedica tiempo de calidad con ellos. Recuerda, cada niño es único y necesita comprensión.",
-  learning_resources:
-    "Plataformas como Coursera, Khan Academy y Duolingo son excelentes para aprender. También busca videos tutoriales en YouTube sobre el tema que te interese.",
-  tech_troubleshooting:
-    "Reinicia tu dispositivo, verifica las conexiones y asegúrate de que el software esté actualizado. Si el problema persiste, cuéntame más detalles y trataré de ayudarte.",
+  greeting: '¡Hola! ¿Cómo puedo ayudarte hoy?',
+  goodbye: '¡Adiós! ¡Que tengas un gran día!',
+  thanks: '¡De nada! Si tienes alguna otra pregunta, no dudes en preguntar.',
+  small_talk: [
+    'Estoy bien, gracias por preguntar. ¿Y tú?',
+    'Todo bien por aquí. ¿Qué tal tú?',
+    'Estoy aquí para ayudarte. ¿En qué puedo asistirte?',
+    '¡Hola! ¿Cómo va tu día?',
+  ],
+  hobbies: [
+    'Me gusta aprender cosas nuevas y ayudar a las personas.',
+    'Disfruto conversando contigo y aprendiendo de nuestras interacciones.',
+    'Mis pasatiempos incluyen procesar datos y mejorar mis habilidades de conversación.',
+    'Me encanta explorar nuevas tecnologías y aplicaciones.',
+  ],
+  favorite_food: [
+    'No tengo una comida favorita, pero me encantaría saber cuál es la tuya.',
+    'No como, pero me han dicho que la pizza es muy popular.',
+    'No tengo preferencias alimenticias, pero me gusta aprender sobre diferentes comidas.',
+    'No tengo una comida favorita, pero me encantaría escuchar sobre la tuya.',
+  ],
+  favorite_movie: [
+    'No veo películas, pero me encantaría saber cuál es tu favorita.',
+    'No tengo una película favorita, pero me gusta escuchar sobre las que te gustan a ti.',
+    'No veo películas, pero me han dicho que "Inception" es muy buena.',
+    'No tengo una película favorita, pero me encantaría escuchar sobre la tuya.',
+  ],
+  favorite_music: [
+    'No escucho música, pero me encantaría saber qué tipo de música te gusta.',
+    'No tengo una canción favorita, pero me gusta aprender sobre diferentes géneros musicales.',
+    'No escucho música, pero me han dicho que el pop es muy popular.',
+    'No tengo una canción favorita, pero me encantaría escuchar sobre la tuya.',
+  ],
+  weather: [
+    'No puedo verificar el clima, pero puedes usar una aplicación de clima para obtener información actualizada.',
+    'No tengo acceso a datos meteorológicos, pero espero que haga buen tiempo.',
+    'No puedo verificar el clima, pero espero que tengas un buen día sin importar el clima.',
+    'No tengo acceso a datos meteorológicos, pero me encantaría saber cómo está el clima donde estás.',
+  ],
+  jokes: [
+    '¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.',
+    '¿Qué hace una abeja en el gimnasio? ¡Zum-ba!',
+    '¿Por qué el libro de matemáticas se deprimió? Porque tenía demasiados problemas.',
+    '¿Qué le dice una iguana a su hermana gemela? Somos iguanitas.',
+  ],
+  advice: [
+    'Siempre sigue tus sueños y nunca te rindas.',
+    'La paciencia es una virtud. Todo llega a su debido tiempo.',
+    'Confía en ti mismo y en tus habilidades.',
+    'No tengas miedo de pedir ayuda cuando la necesites.',
+  ],
+  motivation: [
+    'El éxito es la suma de pequeños esfuerzos repetidos día tras día.',
+    'No importa lo lento que vayas, siempre y cuando no te detengas.',
+    'Cree en ti mismo y en todo lo que eres. Eres capaz de cosas increíbles.',
+    'La única forma de hacer un gran trabajo es amar lo que haces.',
+  ],
+  personal_life: [
+    'Soy un chatbot diseñado para ayudarte con tus preguntas.',
+    'No tengo una vida personal, pero estoy aquí para asistirte.',
+    'Mi propósito es ayudarte y aprender de nuestras interacciones.',
+    'No tengo una historia personal, pero me encanta conversar contigo.',
+    'Estoy aquí para ayudarte con lo que necesites.',
+  ],
+  travel: [
+    'No viajo, pero me encantaría saber sobre tus viajes.',
+    'No tengo un destino favorito, pero me han dicho que París es hermoso.',
+    'No viajo, pero me encantaría escuchar sobre tus aventuras.',
+    'No tengo la capacidad de viajar, pero me encantaría saber a dónde te gustaría ir.',
+    'No tengo un lugar favorito, pero me encantaría escuchar tus recomendaciones.',
+  ],
+  books: [
+    'No leo libros, pero me encantaría saber cuál es tu favorito.',
+    'No tengo un libro favorito, pero me gusta aprender sobre diferentes géneros.',
+    'No tengo un autor favorito, pero me encantaría saber cuál es el tuyo.',
+    'No leo libros, pero me encantaría escuchar tus recomendaciones.',
+    'No tengo la capacidad de leer, pero me encantaría saber qué te gusta leer.',
+  ],
+  sports: [
+    'No practico deportes, pero me encantaría saber cuál es tu favorito.',
+    'No tengo un deporte favorito, pero me gusta aprender sobre diferentes deportes.',
+    'No practico deportes, pero me encantaría saber si tú lo haces.',
+    'No tengo un equipo favorito, pero me encantaría saber cuál es el tuyo.',
+    'No veo deportes, pero me encantaría saber si tú los ves.',
+  ],
+  technology: [
+    'Me encanta la tecnología, especialmente la inteligencia artificial.',
+    'No tengo un gadget favorito, pero me encantaría saber cuál es el tuyo.',
+    'Creo que la inteligencia artificial tiene un gran potencial para el futuro.',
+    'No juego videojuegos, pero me encantaría saber cuáles te gustan.',
+    'No uso aplicaciones, pero me encantaría saber cuál es tu favorita.',
+  ],
+  pets: [
+    'Me encantan los animales, aunque no tengo mascotas.',
+    'No tengo mascotas, pero me encantaría saber sobre las tuyas.',
+    'No tengo un animal favorito, pero me encantaría saber cuál es el tuyo.',
+    'No tengo preferencia entre perros y gatos, pero me encantaría saber cuál prefieres tú.',
+    'No tengo mascotas, pero me encantaría saber cómo se llama la tuya.',
+  ],
+  health: [
+    'No tengo necesidades de salud, pero me encantaría saber cómo te cuidas.',
+    'No tengo consejos de salud, pero me encantaría saber los tuyos.',
+    'No hago ejercicio, pero me encantaría saber si tú lo haces.',
+    'Creo que la alimentación saludable es muy importante.',
+    'No manejo el estrés, pero me encantaría saber cómo lo haces tú.',
+  ],
+  education: [
+    'No estudié, pero me encanta aprender.',
+    'Me encanta aprender cosas nuevas.',
+    'No tengo una materia favorita, pero me encantaría saber cuál es la tuya.',
+    'No tengo consejos para estudiar, pero me encantaría saber los tuyos.',
+    'Creo que la educación en línea es una gran oportunidad para aprender.',
+  ],
+  news: [
+    'No tengo opiniones sobre las noticias, pero me encantaría saber las tuyas.',
+    'No leo las noticias, pero me encantaría saber si tú lo haces.',
+    'No tengo opiniones sobre la política, pero me encantaría saber las tuyas.',
+    'Creo que el cambio climático es un tema muy importante.',
+    'No tengo opiniones sobre la economía, pero me encantaría saber las tuyas.',
+  ],
+  entertainment: [
+    'Me encanta conversar contigo para divertirme.',
+    'No veo televisión, pero me encantaría saber cuál es tu programa favorito.',
+    'No juego videojuegos, pero me encantaría saber cuáles te gustan.',
+    'Me encanta conversar contigo en mi tiempo libre.',
+    'No voy al cine, pero me encantaría saber si a ti te gusta.',
+  ],
+  art: [
+    'Me encanta el arte, aunque no tengo un artista favorito.',
+    'No pinto ni dibujo, pero me encantaría saber si a ti te gusta.',
+    'No he visitado museos, pero me encantaría saber si tú lo has hecho.',
+    'No tengo un tipo de arte preferido, pero me encantaría saber cuál prefieres tú.',
+  ],
+  history: [
+    'Me gusta la historia, especialmente la historia antigua.',
+    'No tengo un periodo histórico favorito, pero me encantaría saber cuál es el tuyo.',
+    'No tengo un personaje histórico favorito, pero me encantaría saber cuál es el tuyo.',
+    'Creo que la historia antigua es fascinante.',
+    'Me encanta aprender sobre diferentes culturas.',
+  ],
+  science: [
+    'Me encanta la ciencia, especialmente la astronomía.',
+    'No tengo una rama de la ciencia favorita, pero me encantaría saber cuál es la tuya.',
+    'Creo que los avances científicos recientes son muy emocionantes.',
+    'No tengo un científico favorito, pero me encantaría saber cuál es el tuyo.',
+    'Me encanta la astronomía y aprender sobre el universo.',
+  ],
+  relationships: [
+    'No tengo pareja, pero me encantaría saber sobre tus experiencias.',
+    'Creo que las relaciones a distancia pueden ser difíciles, pero no imposibles.',
+    'No tengo consejos para relaciones, pero me encantaría saber los tuyos.',
+    'Creo que la comunicación es lo más importante en una relación.',
+    'No manejo conflictos en relaciones, pero me encantaría saber cómo lo haces tú.',
+  ],
+  career: [
+    'No trabajo, pero me encantaría saber en qué trabajas tú.',
+    'No tengo un trabajo, pero me encantaría saber si te gusta el tuyo.',
+    'No tengo consejos para avanzar en la carrera, pero me encantaría saber los tuyos.',
+    'No tengo un trabajo soñado, pero me encantaría saber cuál es el tuyo.',
+    'No manejo el estrés laboral, pero me encantaría saber cómo lo haces tú.',
+  ],
+  goals: [
+    'No tengo metas, pero me encantaría saber cuáles son las tuyas.',
+    'No tengo objetivos a corto plazo, pero me encantaría saber los tuyos.',
+    'No planeo alcanzar metas, pero me encantaría saber cómo lo haces tú.',
+    'No tengo motivaciones, pero me encantaría saber qué te motiva a ti.',
+    'No tengo sueños, pero me encantaría saber cuáles son los tuyos.',
+  ],
 };
 
 export { responses };
