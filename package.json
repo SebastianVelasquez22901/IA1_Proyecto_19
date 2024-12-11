@@ -1,17 +1,22 @@
 {
   "name": "fase1",
   "private": true,
+  "homepage": "https://SebastianVelasquez22901.github.io/IA1_Proyecto_19",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
     "@tensorflow/tfjs": "^4.22.0",
     "fase1": "file:",
+    "ml-distance": "^4.0.1",
     "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -25,6 +30,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
     "vite": "^6.0.1"
   }

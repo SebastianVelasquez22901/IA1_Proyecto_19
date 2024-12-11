@@ -1,35 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import { createAndTrainModel, predictResponse } from '../model/model'; // Asegúrate de importar estas funciones correctamente
+import { recognizeIntent, generateResponse } from '../model/model'; // Importa las funciones correctamente
 import Message from '../Message/Message'; // Componente para mostrar mensajes
 import InputField from '../InputField/InputField'; // Componente para el campo de entrada
-import data from '../model/data.json'; // Datos JSON para entrenar el modelo
 
 const Chatbox = () => {
   const [messages, setMessages] = useState([]);
-  const [model, setModel] = useState(null);
-  const [vocabMap, setVocabMap] = useState({});
-  const [vocab, setVocab] = useState([]);
-  const [outputMap, setOutputMap] = useState({});
-  const [answers, setAnswers] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function trainModel() {
+    async function loadModel() {
       try {
-        const { model, vocab, vocabMap, outputMap, answers } = await createAndTrainModel(data);
-        setModel(model);
-        setVocab(vocab);
-        setVocabMap(vocabMap);
-        setOutputMap(outputMap);
-        setAnswers(answers);
+        await recognizeIntent(''); // Cargar el modelo
         setLoading(false);
-        console.log("Modelo entrenado y configurado:", model);
+        console.log("Modelo cargado y configurado");
       } catch (error) {
-        console.error("Error al entrenar el modelo:", error);
+        console.error("Error al cargar el modelo:", error);
         setLoading(false);
       }
     }
-    trainModel();
+    loadModel();
   }, []);
 
   const sendMessage = async (userMessage) => {
@@ -38,10 +27,18 @@ const Chatbox = () => {
       return;
     }
 
+    // Asegurarse de que userMessage es una cadena de texto
+    if (typeof userMessage !== 'string') {
+      console.error("El mensaje debe ser una cadena de caracteres");
+      return;
+    }
+
+    // Agrega el mensaje del usuario al estado de los mensajes
     setMessages((prev) => [...prev, { sender: 'Usuario', text: userMessage }]);
     console.log("Mensaje del usuario enviado:", userMessage);
 
-    if (!model) {
+    // Si el modelo no está listo, muestra un mensaje de espera
+    if (loading) {
       console.error("El modelo no está listo");
       setMessages((prev) => [...prev, { sender: 'Bot', text: "Lo siento, el modelo aún no está listo para responder." }]);
       return;
@@ -49,7 +46,8 @@ const Chatbox = () => {
 
     try {
       console.log("Prediciendo respuesta...");
-      const botResponse = await predictResponse(model, vocab, userMessage, vocabMap, outputMap, answers); // Pasar outputMap y answers
+      // Predice la respuesta utilizando el modelo
+      const botResponse = await generateResponse(userMessage);
       setMessages((prev) => [...prev, { sender: 'Bot', text: botResponse }]);
       console.log("Respuesta del bot:", botResponse);
     } catch (error) {
@@ -60,9 +58,12 @@ const Chatbox = () => {
 
   return (
     <div className="chatbox-container">
-      <div className="chatbox">
+      <div className="chatbox-header">
+        <h2>Chatbot</h2>
+      </div>
+      <div className="chatbox-messages">
         {loading ? (
-          <div className="loading">Entrenando el modelo... Por favor, espera.</div>
+          <div className="loading">Cargando el modelo... Por favor, espera.</div>
         ) : (
           messages.map((msg, index) => (
             <Message key={index} sender={msg.sender} text={msg.text} />
