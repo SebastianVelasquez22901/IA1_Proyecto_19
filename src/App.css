@@ -41,36 +41,6 @@
   color: #888;
 }
 
-.chatbox {
-  height: 400px;
-  overflow-y: auto;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.message {
-  margin-bottom: 5px;
-}
-.message.User {
-  text-align: right;
-  color: blue;
-}
-.message.Bot {
-  text-align: left;
-  color: green;
-}
-.input-field {
-  display: flex;
-}
-input {
-  flex: 1;
-  padding: 5px;
-}
-button {
-  padding: 5px;
-  margin-left: 5px;
-}
-
 .chatbox-container {
   display: flex;
   flex-direction: column;
@@ -81,6 +51,7 @@ button {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
 .chatbox-header {
@@ -88,6 +59,7 @@ button {
   color: white;
   padding: 10px;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .chatbox-messages {
@@ -100,24 +72,30 @@ button {
 .loading {
   text-align: center;
   margin-top: 20px;
+  color: #888;
 }
 
 .message {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  max-width: 70%;
 }
 
 .message.Usuario {
   background-color: #007bff;
   color: white;
   align-self: flex-end;
+  margin-left: auto;
 }
 
 .message.Bot {
   background-color: #e9ecef;
   color: black;
   align-self: flex-start;
+  margin-right: auto;
 }
 
 .input-field {
@@ -146,4 +124,33 @@ button {
 
 .input-field button:hover {
   background-color: #0056b3;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.message.Usuario {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message.Bot {
+  background-color: #e9ecef;
+  color: black;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.message .icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
