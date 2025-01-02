@@ -1,0 +1,6 @@
+docker run -it -v tr_volume:/app/tr prueba /bin/bash
+docker build -t prueba . 
+
+
+docker run --name mi_contenedor -it -v tr_volume:/app/tr prueba /bin/bash
+docker start -ai mi_contenedor

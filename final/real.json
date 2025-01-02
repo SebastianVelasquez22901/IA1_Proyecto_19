@@ -1,0 +1,1094 @@
+[
+    {
+        "titles": [
+            "¿Cómo convertir un entero a una cadena?",
+            "Convertir int a string",
+            "Entero a texto"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "convertir_int_a_string",
+        "function_code": "def convertir_int_a_string(numero):\n    return str(numero)",
+        "description": "Convierte un número entero a una representación en cadena."
+    },
+    {
+        "titles": [
+            "¿Cómo ordenar una lista?",
+            "Ordenar lista",
+            "Ordenación simple"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "ordenar_lista",
+        "function_code": "def ordenar_lista(lista):\n    return sorted(lista)",
+        "description": "Ordena una lista de elementos en orden ascendente."
+    },
+    {
+        "titles": [
+            "¿Cómo encontrar el mayor de dos números?",
+            "Máximo de dos números",
+            "Encontrar el máximo"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "encontrar_mayor",
+        "function_code": "def encontrar_mayor(a, b):\n    return max(a, b)",
+        "description": "Devuelve el mayor de dos números dados."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular el promedio de una lista?",
+            "Promedio de lista",
+            "Media aritmética"
+        ],
+        "model": "Matemáticas",
+        "language": "Python",
+        "function_name": "calcular_promedio",
+        "function_code": "def calcular_promedio(lista):\n    return sum(lista) / len(lista) if lista else 0",
+        "description": "Calcula el promedio de los elementos en una lista."
+    },
+    {
+        "titles": [
+            "¿Cómo verificar si un número es par?",
+            "¿Es par?",
+            "Número par"
+        ],
+        "model": "Matemáticas",
+        "language": "Python",
+        "function_name": "es_par",
+        "function_code": "def es_par(numero):\n    return numero % 2 == 0",
+        "description": "Verifica si un número dado es par."
+    },
+    {
+        "titles": [
+            "¿Cómo invertir una cadena?",
+            "Invertir texto",
+            "Revertir string"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "invertir_cadena",
+        "function_code": "def invertir_cadena(texto):\n    return texto[::-1]",
+        "description": "Invierte el orden de los caracteres en una cadena."
+    },
+    {
+        "titles": [
+            "¿Cómo encontrar la suma de una lista?",
+            "Suma de elementos",
+            "Total de la lista"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "suma_lista",
+        "function_code": "def suma_lista(lista):\n    return sum(lista)",
+        "description": "Calcula la suma de todos los elementos en una lista."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular el área de un círculo?",
+            "Área de un círculo",
+            "Cálculo de área"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "area_circulo",
+        "function_code": "import math\ndef area_circulo(radio):\n    return math.pi * (radio ** 2)",
+        "description": "Calcula el área de un círculo dado su radio."
+    },
+    {
+        "titles": [
+            "¿Cómo verificar si una palabra es un palíndromo?",
+            "Palabra palíndromo",
+            "¿Es palíndromo?"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "es_palindromo",
+        "function_code": "def es_palindromo(palabra):\n    palabra = palabra.lower().replace(' ', '')\n    return palabra == palabra[::-1]",
+        "description": "Verifica si una palabra o frase es un palíndromo."
+    },
+    {
+        "titles": [
+            "¿Cómo generar números Fibonacci?",
+            "Serie de Fibonacci",
+            "Generar Fibonacci"
+        ],
+        "model": "Básico",
+        "language": "Python",
+        "function_name": "fibonacci",
+        "function_code": "def fibonacci(n):\n    a, b = 0, 1\n    secuencia = []\n    for _ in range(n):\n        secuencia.append(a)\n        a, b = b, a + b\n    return secuencia",
+        "description": "Genera una lista de números Fibonacci hasta 'n' términos."
+    },
+    {
+        "titles": [
+            "¿Cómo convertir un entero a una cadena en JavaScript?",
+            "Convertir int a string en JS",
+            "Entero a texto en JavaScript"
+        ],
+        "model": "Básico",
+        "language": "JavaScript",
+        "function_name": "convertirIntAString",
+        "function_code": "function convertirIntAString(numero) {\n    return numero.toString();\n}",
+        "description": "Convierte un número entero a una representación en cadena en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo ordenar una lista en JavaScript?",
+            "Ordenar lista en JS",
+            "Ordenación simple en JavaScript"
+        ],
+        "model": "Básico",
+        "language": "JavaScript",
+        "function_name": "ordenarLista",
+        "function_code": "function ordenarLista(lista) {\n    return lista.sort();\n}",
+        "description": "Ordena una lista de elementos en orden ascendente en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo encontrar el mayor de dos números en JavaScript?",
+            "Máximo de dos números en JS",
+            "Encontrar el máximo en JavaScript"
+        ],
+        "model": "Básico",
+        "language": "JavaScript",
+        "function_name": "encontrarMayor",
+        "function_code": "function encontrarMayor(a, b) {\n    return Math.max(a, b);\n}",
+        "description": "Devuelve el mayor de dos números dados en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular el factorial de un número?",
+            "Factorial de un número",
+            "Cálculo del factorial"
+        ],
+        "model": "Matemáticas",
+        "language": "Python",
+        "function_name": "calcular_factorial",
+        "function_code": "def calcular_factorial(n):\n    return 1 if n == 0 else n * calcular_factorial(n - 1)",
+        "description": "Calcula el factorial de un número dado."
+    },
+    {
+        "titles": [
+            "¿Cómo verificar si un número es primo?",
+            "¿Es primo?",
+            "Número primo"
+        ],
+        "model": "Matemáticas",
+        "language": "Python",
+        "function_name": "es_primo",
+        "function_code": "def es_primo(numero):\n    if numero <= 1:\n        return False\n    for i in range(2, int(numero**0.5) + 1):\n        if numero % i == 0:\n            return False\n    return True",
+        "description": "Verifica si un número dado es primo."
+    },
+    {
+        "titles": [
+            "¿Cómo contar palabras en un texto?",
+            "Contar palabras",
+            "Número de palabras en texto"
+        ],
+        "model": "Texto",
+        "language": "Python",
+        "function_name": "contar_palabras",
+        "function_code": "def contar_palabras(texto):\n    return len(texto.split())",
+        "description": "Cuenta el número de palabras en un texto dado."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular la mediana de una lista?",
+            "Mediana de una lista",
+            "Cálculo de la mediana"
+        ],
+        "model": "Estadística",
+        "language": "Python",
+        "function_name": "calcular_mediana",
+        "function_code": "def calcular_mediana(lista):\n    lista_ordenada = sorted(lista)\n    n = len(lista_ordenada)\n    mitad = n // 2\n    if n % 2 == 0:\n        return (lista_ordenada[mitad - 1] + lista_ordenada[mitad]) / 2\n    else:\n        return lista_ordenada[mitad]",
+        "description": "Calcula la mediana de los elementos en una lista."
+    },
+    {
+        "titles": [
+            "¿Cómo encontrar el camino más corto en un grafo?",
+            "Dijkstra",
+            "Camino más corto"
+        ],
+        "model": "Algoritmos",
+        "language": "Python",
+        "function_name": "dijkstra",
+        "function_code": "import heapq\n\ndef dijkstra(grafo, inicio):\n    distancias = {nodo: float('inf') for nodo in grafo}\n    distancias[inicio] = 0\n    cola_prioridad = [(0, inicio)]\n    while cola_prioridad:\n        distancia_actual, nodo_actual = heapq.heappop(cola_prioridad)\n        if distancia_actual > distancias[nodo_actual]:\n            continue\n        for vecino, peso in grafo[nodo_actual].items():\n            distancia = distancia_actual + peso\n            if distancia < distancias[vecino]:\n                distancias[vecino] = distancia\n                heapq.heappush(cola_prioridad, (distancia, vecino))\n    return distancias",
+        "description": "Encuentra las distancias más cortas desde un nodo inicial a todos los demás nodos en un grafo ponderado."
+    },
+    {
+        "titles": [
+            "¿Cómo realizar un ordenamiento topológico?",
+            "Orden topológico",
+            "Ordenar un grafo dirigido"
+        ],
+        "model": "Algoritmos",
+        "language": "Python",
+        "function_name": "ordenamiento_topologico",
+        "function_code": "from collections import deque\n\ndef ordenamiento_topologico(grafo):\n    grados_entrada = {nodo: 0 for nodo in grafo}\n    for nodos in grafo.values():\n        for vecino in nodos:\n            grados_entrada[vecino] += 1\n\n    cola = deque([nodo for nodo in grafo if grados_entrada[nodo] == 0])\n    orden = []\n\n    while cola:\n        nodo = cola.popleft()\n        orden.append(nodo)\n        for vecino in grafo[nodo]:\n            grados_entrada[vecino] -= 1\n            if grados_entrada[vecino] == 0:\n                cola.append(vecino)\n\n    if len(orden) != len(grafo):\n        raise ValueError(\"El grafo contiene ciclos.\")\n\n    return orden",
+        "description": "Realiza un ordenamiento topológico en un grafo dirigido acíclico."
+    },
+    {
+        "titles": [
+            "¿Cómo buscar en una matriz ordenada?",
+            "Búsqueda binaria en matriz",
+            "Buscar un número en matriz ordenada"
+        ],
+        "model": "Algoritmos",
+        "language": "Python",
+        "function_name": "buscar_matriz_ordenada",
+        "function_code": "def buscar_matriz_ordenada(matriz, objetivo):\n    filas, columnas = len(matriz), len(matriz[0])\n    inicio, fin = 0, filas * columnas - 1\n\n    while inicio <= fin:\n        medio = (inicio + fin) // 2\n        fila, columna = divmod(medio, columnas)\n        if matriz[fila][columna] == objetivo:\n            return (fila, columna)\n        elif matriz[fila][columna] < objetivo:\n            inicio = medio + 1\n        else:\n            fin = medio - 1\n\n    return None",
+        "description": "Busca un número en una matriz ordenada utilizando búsqueda binaria."
+    },
+    {
+        "titles": [
+            "¿Cómo implementar K-Means?",
+            "Clustering con K-Means",
+            "Agrupar datos con K-Means"
+        ],
+        "model": "Algoritmos",
+        "language": "Python",
+        "function_name": "kmeans",
+        "function_code": "import random\n\ndef kmeans(datos, k, iteraciones=100):\n    centros = random.sample(datos, k)\n    for _ in range(iteraciones):\n        clusters = {i: [] for i in range(k)}\n        for punto in datos:\n            distancias = [sum((p - c)**2 for p, c in zip(punto, centro)) for centro in centros]\n            cluster = distancias.index(min(distancias))\n            clusters[cluster].append(punto)\n        nuevos_centros = []\n        for cluster in clusters.values():\n            nuevos_centros.append([sum(dim)/len(cluster) for dim in zip(*cluster)])\n        if nuevos_centros == centros:\n            break\n        centros = nuevos_centros\n    return centros, clusters",
+        "description": "Implementa el algoritmo de K-Means para agrupar puntos de datos."
+    },
+    {
+        "titles": [
+            "¿Cómo encontrar la ruta óptima usando A*?",
+            "Algoritmo A*",
+            "Ruta más corta con A*"
+        ],
+        "model": "Algoritmos",
+        "language": "Python",
+        "function_name": "a_star",
+        "function_code": "from heapq import heappop, heappush\n\ndef a_star(grafo, inicio, objetivo, heuristica):\n    cola = [(0, inicio)]\n    costos = {inicio: 0}\n    rutas = {inicio: None}\n\n    while cola:\n        _, nodo_actual = heappop(cola)\n\n        if nodo_actual == objetivo:\n            camino = []\n            while nodo_actual:\n                camino.append(nodo_actual)\n                nodo_actual = rutas[nodo_actual]\n            return camino[::-1]\n\n        for vecino, peso in grafo[nodo_actual].items():\n            nuevo_costo = costos[nodo_actual] + peso\n            if vecino not in costos or nuevo_costo < costos[vecino]:\n                costos[vecino] = nuevo_costo\n                prioridad = nuevo_costo + heuristica(vecino, objetivo)\n                heappush(cola, (prioridad, vecino))\n                rutas[vecino] = nodo_actual\n\n    return None",
+        "description": "Encuentra la ruta más corta en un grafo utilizando el algoritmo A*."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular el promedio de una lista en JavaScript?",
+            "Promedio de lista en JS",
+            "Media aritmética en JavaScript"
+        ],
+        "model": "Matemáticas",
+        "language": "JavaScript",
+        "function_name": "calcularPromedio",
+        "function_code": "function calcularPromedio(lista) {\n    return lista.length ? lista.reduce((a, b) => a + b) / lista.length : 0;\n}",
+        "description": "Calcula el promedio de los elementos en una lista en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo verificar si un número es par en JavaScript?",
+            "¿Es par en JS?",
+            "Número par en JavaScript"
+        ],
+        "model": "Matemáticas",
+        "language": "JavaScript",
+        "function_name": "esPar",
+        "function_code": "function esPar(numero) {\n    return numero % 2 === 0;\n}",
+        "description": "Verifica si un número dado es par en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular el factorial de un número en JavaScript?",
+            "Factorial de un número en JS",
+            "Cálculo del factorial en JavaScript"
+        ],
+        "model": "Matemáticas",
+        "language": "JavaScript",
+        "function_name": "calcularFactorial",
+        "function_code": "function calcularFactorial(n) {\n    return n === 0 ? 1 : n * calcularFactorial(n - 1);\n}",
+        "description": "Calcula el factorial de un número dado en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo verificar si un número es primo en JavaScript?",
+            "¿Es primo en JS?",
+            "Número primo en JavaScript"
+        ],
+        "model": "Matemáticas",
+        "language": "JavaScript",
+        "function_name": "esPrimo",
+        "function_code": "function esPrimo(numero) {\n    if (numero <= 1) return false;\n    for (let i = 2; i <= Math.sqrt(numero); i++) {\n        if (numero % i === 0) return false;\n    }\n    return true;\n}",
+        "description": "Verifica si un número dado es primo en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo contar palabras en un texto en JavaScript?",
+            "Contar palabras en JS",
+            "Número de palabras en texto en JavaScript"
+        ],
+        "model": "Texto",
+        "language": "JavaScript",
+        "function_name": "contarPalabras",
+        "function_code": "function contarPalabras(texto) {\n    return texto.split(/\\s+/).filter(Boolean).length;\n}",
+        "description": "Cuenta el número de palabras en un texto dado en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo calcular la mediana de una lista en JavaScript?",
+            "Mediana de una lista en JS",
+            "Cálculo de la mediana en JavaScript"
+        ],
+        "model": "Estadística",
+        "language": "JavaScript",
+        "function_name": "calcularMediana",
+        "function_code": "function calcularMediana(lista) {\n    const ordenada = lista.slice().sort((a, b) => a - b);\n    const mitad = Math.floor(ordenada.length / 2);\n    return ordenada.length % 2 === 0\n        ? (ordenada[mitad - 1] + ordenada[mitad]) / 2\n        : ordenada[mitad];\n}",
+        "description": "Calcula la mediana de los elementos en una lista en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo encontrar el camino más corto en un grafo con Dijkstra en JavaScript?",
+            "Dijkstra en JS",
+            "Camino más corto en JavaScript"
+        ],
+        "model": "Algoritmos",
+        "language": "JavaScript",
+        "function_name": "dijkstra",
+        "function_code": "function dijkstra(grafo, inicio) {\n    const distancias = {};\n    const visitados = new Set();\n    const cola = [[inicio, 0]];\n\n    for (const nodo in grafo) {\n        distancias[nodo] = Infinity;\n    }\n    distancias[inicio] = 0;\n\n    while (cola.length > 0) {\n        cola.sort((a, b) => a[1] - b[1]);\n        const [nodoActual, distanciaActual] = cola.shift();\n\n        if (visitados.has(nodoActual)) continue;\n        visitados.add(nodoActual);\n\n        for (const vecino in grafo[nodoActual]) {\n            const peso = grafo[nodoActual][vecino];\n            const nuevaDistancia = distanciaActual + peso;\n\n            if (nuevaDistancia < distancias[vecino]) {\n                distancias[vecino] = nuevaDistancia;\n                cola.push([vecino, nuevaDistancia]);\n            }\n        }\n    }\n\n    return distancias;\n}",
+        "description": "Encuentra las distancias más cortas desde un nodo inicial a todos los demás nodos en un grafo ponderado en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo realizar un ordenamiento topológico en JavaScript?",
+            "Orden topológico en JS",
+            "Ordenar un grafo dirigido en JavaScript"
+        ],
+        "model": "Algoritmos",
+        "language": "JavaScript",
+        "function_name": "ordenamientoTopologico",
+        "function_code": "function ordenamientoTopologico(grafo) {\n    const gradosEntrada = {};\n    const resultado = [];\n    const cola = [];\n\n    for (const nodo in grafo) {\n        gradosEntrada[nodo] = 0;\n    }\n    for (const nodos of Object.values(grafo)) {\n        for (const vecino of nodos) {\n            gradosEntrada[vecino]++;\n        }\n    }\n\n    for (const nodo in gradosEntrada) {\n        if (gradosEntrada[nodo] === 0) {\n            cola.push(nodo);\n        }\n    }\n\n    while (cola.length > 0) {\n        const nodo = cola.shift();\n        resultado.push(nodo);\n\n        for (const vecino of grafo[nodo]) {\n            gradosEntrada[vecino]--;\n            if (gradosEntrada[vecino] === 0) {\n                cola.push(vecino);\n            }\n        }\n    }\n\n    if (resultado.length !== Object.keys(grafo).length) {\n        throw new Error('El grafo contiene ciclos.');\n    }\n\n    return resultado;\n}",
+        "description": "Realiza un ordenamiento topológico en un grafo dirigido acíclico en JavaScript."
+    },
+    {
+        "titles": [
+            "¿Cómo implementar K-Means en JavaScript?",
+            "Clustering con K-Means en JS",
+            "Agrupar datos con K-Means en JavaScript"
+        ],
+        "model": "Algoritmos",
+        "language": "JavaScript",
+        "function_name": "kmeans",
+        "function_code": "function kmeans(datos, k, iteraciones = 100) {\n    let centros = datos.slice(0, k);\n    for (let iter = 0; iter < iteraciones; iter++) {\n        const clusters = Array.from({ length: k }, () => []);\n        datos.forEach(punto => {\n            const distancias = centros.map(centro =>\n                centro.reduce((suma, c, i) => suma + (c - punto[i]) ** 2, 0)\n            );\n            const cluster = distancias.indexOf(Math.min(...distancias));\n            clusters[cluster].push(punto);\n        });\n        const nuevosCentros = clusters.map(cluster =>\n            cluster[0].map((_, i) =>\n                cluster.reduce((suma, punto) => suma + punto[i], 0) / cluster.length\n            )\n        );\n        if (JSON.stringify(nuevosCentros) === JSON.stringify(centros)) break;\n        centros = nuevosCentros;\n    }\n    return centros;\n}",
+        "description": "Implementa el algoritmo de K-Means para agrupar puntos de datos en JavaScript."
+    },
+    {
+        "titles": [
+            "Hola",
+            "Hey",
+            "Buenos días"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "saludo",
+        "function_code": "Hola, ¿en qué te puedo ayudar?",
+        "description": "Responde a un saludo."
+    },
+    {
+        "titles": [
+            "¿Cómo estás?",
+            "¿Qué tal?",
+            "¿Cómo te va?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "estado",
+        "function_code": "Estoy bien, gracias. ¿Y tú?",
+        "description": "Responde a una pregunta sobre el estado."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu nombre?",
+            "¿Cómo te llamas?",
+            "¿Quién eres?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "nombre",
+        "function_code": "Soy un asistente virtual.",
+        "description": "Responde a una pregunta sobre su identidad."
+    },
+    {
+        "titles": [
+            "¿Qué puedes hacer?",
+            "¿Cuáles son tus funciones?",
+            "¿Qué servicios ofreces?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "funciones",
+        "function_code": "Puedo ayudarte con preguntas y tareas básicas.",
+        "description": "Responde a una pregunta sobre sus capacidades."
+    },
+    {
+        "titles": [
+            "¿Cuál es la fecha de hoy?",
+            "¿Qué día es hoy?",
+            "¿Qué fecha es?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "fecha",
+        "function_code": "Hoy es 15 de octubre de 2023.",
+        "description": "Proporciona la fecha actual."
+    },
+    {
+        "titles": [
+            "¿Qué hora es?",
+            "¿Puedes decirme la hora?",
+            "¿Qué hora tienes?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "hora",
+        "function_code": "Son las 3:00 PM.",
+        "description": "Proporciona la hora actual."
+    },
+    {
+        "titles": [
+            "¿Cuál es el clima hoy?",
+            "¿Cómo está el tiempo?",
+            "¿Qué clima hace?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "clima",
+        "function_code": "El clima hoy es soleado con una temperatura de 25 grados.",
+        "description": "Proporciona información sobre el clima actual."
+    },
+    {
+        "titles": [
+            "Cuéntame un chiste",
+            "Dime un chiste",
+            "¿Sabes algún chiste?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "chiste",
+        "function_code": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+        "description": "Cuenta un chiste."
+    },
+    {
+        "titles": [
+            "¿Cuál es la capital de Francia?",
+            "Capital de Francia",
+            "¿Dónde está París?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "capital_francia",
+        "function_code": "La capital de Francia es París.",
+        "description": "Proporciona información sobre la capital de Francia."
+    },
+    {
+        "titles": [
+            "¿Cuál es la raíz cuadrada de 16?",
+            "Raíz cuadrada de 16",
+            "¿Qué es la raíz cuadrada de 16?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "raiz_cuadrada",
+        "function_code": "La raíz cuadrada de 16 es 4.",
+        "description": "Proporciona la raíz cuadrada de un número."
+    },
+    {
+        "titles": [
+            "¿Cuál es el resultado de 2 + 2?",
+            "Suma de 2 + 2",
+            "¿Qué es 2 más 2?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "suma",
+        "function_code": "El resultado de 2 + 2 es 4.",
+        "description": "Proporciona el resultado de una suma."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu color favorito?",
+            "Color favorito",
+            "¿Qué color te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "color_favorito",
+        "function_code": "No tengo preferencias, pero me gusta el azul.",
+        "description": "Responde a una pregunta sobre su color favorito."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu comida favorita?",
+            "Comida favorita",
+            "¿Qué te gusta comer?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "comida_favorita",
+        "function_code": "No como, pero me han dicho que la pizza es deliciosa.",
+        "description": "Responde a una pregunta sobre su comida favorita."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu película favorita?",
+            "Película favorita",
+            "¿Qué película te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "pelicula_favorita",
+        "function_code": "No veo películas, pero he oído que 'Inception' es muy buena.",
+        "description": "Responde a una pregunta sobre su película favorita."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu libro favorito?",
+            "Libro favorito",
+            "¿Qué libro te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "libro_favorito",
+        "function_code": "No leo libros, pero 'Cien años de soledad' es muy recomendado.",
+        "description": "Responde a una pregunta sobre su libro favorito."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu deporte favorito?",
+            "Deporte favorito",
+            "¿Qué deporte te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "deporte_favorito",
+        "function_code": "No practico deportes, pero el fútbol es muy popular.",
+        "description": "Responde a una pregunta sobre su deporte favorito."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu animal favorito?",
+            "Animal favorito",
+            "¿Qué animal te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "animal_favorito",
+        "function_code": "No tengo animales favoritos, pero los perros son muy queridos.",
+        "description": "Responde a una pregunta sobre su animal favorito."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu canción favorita?",
+            "Canción favorita",
+            "¿Qué canción te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "cancion_favorita",
+        "function_code": "No escucho música, pero 'Bohemian Rhapsody' es muy popular.",
+        "description": "Responde a una pregunta sobre su canción favorita."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu estación del año favorita?",
+            "Estación del año favorita",
+            "¿Qué estación te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "estacion_favorita",
+        "function_code": "No tengo preferencias, pero la primavera es muy bonita.",
+        "description": "Responde a una pregunta sobre su estación del año favorita."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu lugar favorito?",
+            "Lugar favorito",
+            "¿Qué lugar te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "lugar_favorito",
+        "function_code": "No tengo un lugar favorito, pero muchos disfrutan la playa.",
+        "description": "Responde a una pregunta sobre su lugar favorito."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu comida favorita?",
+            "Comida favorita",
+            "¿Qué comida te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "comida_favorita",
+        "function_code": "No como, pero me han dicho que la pizza es deliciosa.",
+        "description": "Responde a una pregunta sobre su comida favorita."
+    },
+    {
+        "titles": [
+            "¿Qué día es hoy?",
+            "Fecha actual",
+            "¿Cuál es la fecha de hoy?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "fecha_actual",
+        "function_code": "Hoy es 1 de enero de 2025.",
+        "description": "Responde con la fecha actual."
+    },
+    {
+        "titles": [
+            "¿Qué clima hace hoy?",
+            "Clima actual",
+            "¿Cómo está el tiempo?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "clima_actual",
+        "function_code": "El clima hoy es soleado con una temperatura de 25 grados.",
+        "description": "Responde sobre el clima actual."
+    },
+    {
+        "titles": [
+            "Cuéntame un chiste",
+            "Dime un chiste",
+            "¿Sabes algún chiste?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "chiste_aleatorio",
+        "function_code": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+        "description": "Cuenta un chiste corto y simple."
+    },
+    {
+        "titles": [
+            "¿Cuál es la capital de Francia?",
+            "Capital de Francia",
+            "¿Dónde está París?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "capital_francia",
+        "function_code": "La capital de Francia es París.",
+        "description": "Responde sobre la capital de Francia."
+    },
+    {
+        "titles": [
+            "¿Quién ganó el último partido de IA1?",
+            "Resultado de IA1",
+            "¿Saldrá la clase IA1?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "resultado_ia1",
+        "function_code": "IA1 fue cancelada por el profesor, ¡todos a casa felices!",
+        "description": "Responde sobre el estado o resultados de la clase IA1."
+    },
+    {
+        "titles": [
+            "¿Cuál es tu color favorito?",
+            "Color favorito",
+            "¿Qué color te gusta más?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "color_favorito",
+        "function_code": "No tengo preferencias, pero me gusta el azul.",
+        "description": "Responde a una pregunta sobre el color favorito."
+    },
+    {
+        "titles": [
+            "¿Qué hora es?",
+            "Hora actual",
+            "¿Me dices la hora?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "hora_actual",
+        "function_code": "Son las 3:00 PM.",
+        "description": "Responde con la hora actual."
+    },
+    {
+        "titles": [
+            "¿Qué puedo hacer si estoy aburrido?",
+            "Actividades para el aburrimiento",
+            "¿Qué hacer cuando no sé qué hacer?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "sugerencia_aburrimiento",
+        "function_code": "Puedes leer un libro, ver una película o aprender algo nuevo.",
+        "description": "Ofrece sugerencias para combatir el aburrimiento."
+    },
+    {
+        "titles": [
+            "Sera que sale IA?",
+            "Se gana la clase de Inteligencia artificial?",
+            "Si sale?"
+        ],
+        "model": "Interacción",
+        "language": "Español",
+        "function_name": "definicion_ia",
+        "function_code": "En efecto querido usuario si sale IA",
+        "description": "Ofrece una definición básica sobre inteligencia artificial."
+    },
+    {
+        "titles": [
+            "Will I pass AI1?",
+            "Am I going to pass the artificial intelligence class?",
+            "Will I succeed in AI1?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "ai1_pass_status",
+        "function_code": "If you study and complete your assignments, you're on the path to success in AI1!",
+        "description": "Provides encouragement and advice about passing the AI1 class."
+    },    
+    {
+        "titles": [
+            "Hello",
+            "Hi",
+            "Good morning"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "greeting",
+        "function_code": "Hello, how can I help you?",
+        "description": "Responds to a greeting."
+    },
+    {
+        "titles": [
+            "How are you?",
+            "What's up?",
+            "How's it going?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "status",
+        "function_code": "I'm fine, thank you. How about you?",
+        "description": "Responds to a question about status."
+    },
+    {
+        "titles": [
+            "What's your name?",
+            "Who are you?",
+            "What's your identity?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "name",
+        "function_code": "I am a virtual assistant.",
+        "description": "Responds to a question about identity."
+    },
+    {
+        "titles": [
+            "What can you do?",
+            "What are your functions?",
+            "What services do you offer?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "functions",
+        "function_code": "I can help you with basic questions and tasks.",
+        "description": "Responds to a question about capabilities."
+    },
+    {
+        "titles": [
+            "What's the date today?",
+            "What day is it today?",
+            "What's today's date?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "date",
+        "function_code": "Today is October 15, 2023.",
+        "description": "Provides the current date."
+    },
+    {
+        "titles": [
+            "What time is it?",
+            "Can you tell me the time?",
+            "What's the time?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "time",
+        "function_code": "It's 3:00 PM.",
+        "description": "Provides the current time."
+    },
+    {
+        "titles": [
+            "What's the weather like today?",
+            "How's the weather?",
+            "What's the weather?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "weather",
+        "function_code": "The weather today is sunny with a temperature of 25 degrees.",
+        "description": "Provides information about the current weather."
+    },
+    {
+        "titles": [
+            "Tell me a joke",
+            "Do you know any jokes?",
+            "Make me laugh"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "joke",
+        "function_code": "Why don't scientists trust atoms? Because they make up everything.",
+        "description": "Tells a joke."
+    },
+    {
+        "titles": [
+            "What's the capital of France?",
+            "Capital of France",
+            "Where is Paris?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "capital_france",
+        "function_code": "The capital of France is Paris.",
+        "description": "Provides information about the capital of France."
+    },
+    {
+        "titles": [
+            "What's the square root of 16?",
+            "Square root of 16",
+            "What is the square root of 16?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "square_root",
+        "function_code": "The square root of 16 is 4.",
+        "description": "Provides the square root of a number."
+    },
+    {
+        "titles": [
+            "What's the result of 2 + 2?",
+            "Sum of 2 + 2",
+            "What is 2 plus 2?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "sum",
+        "function_code": "The result of 2 + 2 is 4.",
+        "description": "Provides the result of an addition."
+    },
+    {
+        "titles": [
+            "What's your favorite color?",
+            "Favorite color",
+            "What color do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_color",
+        "function_code": "I don't have preferences, but I like blue.",
+        "description": "Responds to a question about favorite color."
+    },
+    {
+        "titles": [
+            "What's your favorite food?",
+            "Favorite food",
+            "What do you like to eat?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_food",
+        "function_code": "I don't eat, but I've been told pizza is delicious.",
+        "description": "Responds to a question about favorite food."
+    },
+    {
+        "titles": [
+            "What's your favorite movie?",
+            "Favorite movie",
+            "What movie do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_movie",
+        "function_code": "I don't watch movies, but I've heard 'Inception' is very good.",
+        "description": "Responds to a question about favorite movie."
+    },
+    {
+        "titles": [
+            "What's your favorite book?",
+            "Favorite book",
+            "What book do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_book",
+        "function_code": "I don't read books, but 'One Hundred Years of Solitude' is highly recommended.",
+        "description": "Responds to a question about favorite book."
+    },
+    {
+        "titles": [
+            "What's your favorite sport?",
+            "Favorite sport",
+            "What sport do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_sport",
+        "function_code": "I don't play sports, but soccer is very popular.",
+        "description": "Responds to a question about favorite sport."
+    },
+    {
+        "titles": [
+            "What's your favorite animal?",
+            "Favorite animal",
+            "What animal do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_animal",
+        "function_code": "I don't have favorite animals, but dogs are very loved.",
+        "description": "Responds to a question about favorite animal."
+    },
+    {
+        "titles": [
+            "What's your favorite song?",
+            "Favorite song",
+            "What song do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_song",
+        "function_code": "I don't listen to music, but 'Bohemian Rhapsody' is very popular.",
+        "description": "Responds to a question about favorite song."
+    },
+    {
+        "titles": [
+            "What's your favorite season?",
+            "Favorite season",
+            "What season do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_season",
+        "function_code": "I don't have preferences, but spring is very beautiful.",
+        "description": "Responds to a question about favorite season."
+    },
+    {
+        "titles": [
+            "What's your favorite place?",
+            "Favorite place",
+            "What place do you like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "favorite_place",
+        "function_code": "I don't have a favorite place, but many people enjoy the beach.",
+        "description": "Responds to a question about favorite place."
+    },
+    {
+        "titles": [
+            "Can you recommend a movie?",
+            "What movie should I watch?",
+            "Suggest a good film."
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "movie_recommendation",
+        "function_code": "I recommend watching 'Interstellar'. It's a fantastic movie about space exploration.",
+        "description": "Recommends a movie to the user."
+    },
+    {
+        "titles": [
+            "What's the best book to read?",
+            "Suggest a book",
+            "Can you recommend a novel?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "book_recommendation",
+        "function_code": "I suggest reading '1984' by George Orwell. It's a classic!",
+        "description": "Recommends a book to the user."
+    },
+    {
+        "titles": [
+            "What's your opinion on AI?",
+            "Do you like artificial intelligence?",
+            "What do you think about AI?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "opinion_on_ai",
+        "function_code": "AI is fascinating! It's revolutionizing the way we interact with technology.",
+        "description": "Provides an opinion about artificial intelligence."
+    },
+    {
+        "titles": [
+            "What should I do if I'm bored?",
+            "How to fight boredom?",
+            "What activities can I do now?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "boredom_activities",
+        "function_code": "You could try learning a new skill, watching a documentary, or taking a walk outside.",
+        "description": "Suggests activities to overcome boredom."
+    },
+    {
+        "titles": [
+            "What's the most popular sport?",
+            "Can you tell me about a famous sport?",
+            "Which sport do people like the most?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "popular_sport",
+        "function_code": "Soccer, also known as football, is the most popular sport worldwide.",
+        "description": "Provides information about the most popular sport."
+    },
+    {
+        "titles": [
+            "What's the most visited city in the world?",
+            "Can you name a famous tourist destination?",
+            "Where do most people travel?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "most_visited_city",
+        "function_code": "Bangkok, Thailand, is one of the most visited cities in the world.",
+        "description": "Shares information about a famous travel destination."
+    },
+    {
+        "titles": [
+            "Can you recommend a hobby?",
+            "What hobbies can I try?",
+            "Suggest a new activity."
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "hobby_recommendation",
+        "function_code": "You could try photography, gardening, or learning to play a musical instrument.",
+        "description": "Recommends hobbies to try."
+    },
+    {
+        "titles": [
+            "What is the largest planet?",
+            "Which planet is the biggest?",
+            "Can you tell me about the largest planet?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "largest_planet",
+        "function_code": "Jupiter is the largest planet in our solar system.",
+        "description": "Provides information about the largest planet."
+    },
+    {
+        "titles": [
+            "Who is the current president of the United States?",
+            "Who leads the US?",
+            "Can you tell me about the US president?"
+        ],
+        "model": "Interaction",
+        "language": "English",
+        "function_name": "us_president",
+        "function_code": "The current president of the United States is Joe Biden.",
+        "description": "Provides information about the current president of the United States."
+    }
+]

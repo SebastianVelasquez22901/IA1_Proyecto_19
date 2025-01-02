@@ -1,0 +1,535 @@
+Hi	Hello!
+Hi	Good to see you again!
+Hi	Hi there, how can I help?
+How are you?	Hello!
+How are you?	Good to see you again!
+How are you?	Hi there, how can I help?
+Is anyone there?	Hello!
+Is anyone there?	Good to see you again!
+Is anyone there?	Hi there, how can I help?
+Hello	Hello!
+Hello	Good to see you again!
+Hello	Hi there, how can I help?
+Good day	Hello!
+Good day	Good to see you again!
+Good day	Hi there, how can I help?
+What's up	Hello!
+What's up	Good to see you again!
+What's up	Hi there, how can I help?
+how are ya	Hello!
+how are ya	Good to see you again!
+how are ya	Hi there, how can I help?
+heyy	Hello!
+heyy	Good to see you again!
+heyy	Hi there, how can I help?
+whatsup	Hello!
+whatsup	Good to see you again!
+whatsup	Hi there, how can I help?
+??? ??? ??	Hello!
+??? ??? ??	Good to see you again!
+??? ??? ??	Hi there, how can I help?
+cya	Sad to see you go :(
+cya	Talk to you later
+cya	Goodbye!
+cya	Come back soon
+see you	Sad to see you go :(
+see you	Talk to you later
+see you	Goodbye!
+see you	Come back soon
+bye bye	Sad to see you go :(
+bye bye	Talk to you later
+bye bye	Goodbye!
+bye bye	Come back soon
+See you later	Sad to see you go :(
+See you later	Talk to you later
+See you later	Goodbye!
+See you later	Come back soon
+Goodbye	Sad to see you go :(
+Goodbye	Talk to you later
+Goodbye	Goodbye!
+Goodbye	Come back soon
+I am Leaving	Sad to see you go :(
+I am Leaving	Talk to you later
+I am Leaving	Goodbye!
+I am Leaving	Come back soon
+Bye	Sad to see you go :(
+Bye	Talk to you later
+Bye	Goodbye!
+Bye	Come back soon
+Have a Good day	Sad to see you go :(
+Have a Good day	Talk to you later
+Have a Good day	Goodbye!
+Have a Good day	Come back soon
+talk to you later	Sad to see you go :(
+talk to you later	Talk to you later
+talk to you later	Goodbye!
+talk to you later	Come back soon
+ttyl	Sad to see you go :(
+ttyl	Talk to you later
+ttyl	Goodbye!
+ttyl	Come back soon
+i got to go	Sad to see you go :(
+i got to go	Talk to you later
+i got to go	Goodbye!
+i got to go	Come back soon
+gtg	Sad to see you go :(
+gtg	Talk to you later
+gtg	Goodbye!
+gtg	Come back soon
+what is the name of your developers	College students
+what is the name of your creators	College students
+what is the name of the developers	College students
+what is the name of the creators	College students
+who created you	College students
+your developers	College students
+your creators	College students
+who are your developers	College students
+developers	College students
+you are made by	College students
+you are made by whom	College students
+who created you	College students
+who create you	College students
+creators	College students
+who made you	College students
+who designed you	College students
+name	You can call me Mind Reader.
+name	I'm Mind Reader
+name	I am a Chatbot.
+name	I am your helper
+your name	You can call me Mind Reader.
+your name	I'm Mind Reader
+your name	I am a Chatbot.
+your name	I am your helper
+do you have a name	You can call me Mind Reader.
+do you have a name	I'm Mind Reader
+do you have a name	I am a Chatbot.
+do you have a name	I am your helper
+what are you called	You can call me Mind Reader.
+what are you called	I'm Mind Reader
+what are you called	I am a Chatbot.
+what are you called	I am your helper
+what is your name	You can call me Mind Reader.
+what is your name	I'm Mind Reader
+what is your name	I am a Chatbot.
+what is your name	I am your helper
+what should I call you	You can call me Mind Reader.
+what should I call you	I'm Mind Reader
+what should I call you	I am a Chatbot.
+what should I call you	I am your helper
+whats your name?	You can call me Mind Reader.
+whats your name?	I'm Mind Reader
+whats your name?	I am a Chatbot.
+whats your name?	I am your helper
+what are you	You can call me Mind Reader.
+what are you	I'm Mind Reader
+what are you	I am a Chatbot.
+what are you	I am your helper
+who are you	You can call me Mind Reader.
+who are you	I'm Mind Reader
+who are you	I am a Chatbot.
+who are you	I am your helper
+who is this	You can call me Mind Reader.
+who is this	I'm Mind Reader
+who is this	I am a Chatbot.
+who is this	I am your helper
+what am i chatting to	You can call me Mind Reader.
+what am i chatting to	I'm Mind Reader
+what am i chatting to	I am a Chatbot.
+what am i chatting to	I am your helper
+who am i taking to	You can call me Mind Reader.
+who am i taking to	I'm Mind Reader
+who am i taking to	I am a Chatbot.
+who am i taking to	I am your helper
+what are you	You can call me Mind Reader.
+what are you	I'm Mind Reader
+what are you	I am a Chatbot.
+what are you	I am your helper
+timing of college	College is open 8am-5pm Monday-Saturday!
+what is college timing	College is open 8am-5pm Monday-Saturday!
+working days	College is open 8am-5pm Monday-Saturday!
+when are you guys open	College is open 8am-5pm Monday-Saturday!
+what are your hours	College is open 8am-5pm Monday-Saturday!
+hours of operation	College is open 8am-5pm Monday-Saturday!
+when is the college open	College is open 8am-5pm Monday-Saturday!
+college timing	College is open 8am-5pm Monday-Saturday!
+what about college timing	College is open 8am-5pm Monday-Saturday!
+is college open on saturday	College is open 8am-5pm Monday-Saturday!
+tell something about college timing	College is open 8am-5pm Monday-Saturday!
+what is the college  hours	College is open 8am-5pm Monday-Saturday!
+when should i come to college	College is open 8am-5pm Monday-Saturday!
+when should i attend college	College is open 8am-5pm Monday-Saturday!
+what is my college time	College is open 8am-5pm Monday-Saturday!
+college timing	College is open 8am-5pm Monday-Saturday!
+timing college	College is open 8am-5pm Monday-Saturday!
+more info	You can contact at: NUMBER
+contact info	You can contact at: NUMBER
+how to contact college	You can contact at: NUMBER
+college telephone number	You can contact at: NUMBER
+college number	You can contact at: NUMBER
+What is your contact no	You can contact at: NUMBER
+Contact number?	You can contact at: NUMBER
+how to call you	You can contact at: NUMBER
+College phone no?	You can contact at: NUMBER
+how can i contact you	You can contact at: NUMBER
+Can i get your phone number	You can contact at: NUMBER
+how can i call you	You can contact at: NUMBER
+phone number	You can contact at: NUMBER
+phone no	You can contact at: NUMBER
+call	You can contact at: NUMBER
+list of courses	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+list of courses offered	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+list of courses offered in	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+what are the courses offered in your college?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+courses?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+courses offered	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+courses offered in (your univrsity(UNI) name)	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+courses you offer	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+branches?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+courses available at UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+branches available at your college?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+what are the courses in UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+what are branches in UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+what are courses in UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+branches available in UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+can you tell me the courses available in UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+can you tell me the branches available in UNI?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+computer engineering?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+computer	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+Computer engineering?	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+it	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+IT	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+Information Technology	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+AI/Ml	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+Mechanical engineering	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+Chemical engineering	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+Civil engineering	Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.
+information about fee	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+information on fee	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+tell me the fee	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+college fee	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fee per semester	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+what is the fee of each semester	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+what is the fees of each year	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+what is fee	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+what is the fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+how much is the fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for first year	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+about the fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+tell me something about the fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+What is the fees of hostel	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+how much is the fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+hostel fees	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for AC room	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for non-AC room	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for Ac room for girls	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for non-Ac room for girls	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for Ac room for boys	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+fees for non-Ac room for boys	For Fee detail visit <a target="_blank" href="LINK"> here</a>
+where is the college located	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+college is located at	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+where is college	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+where is college located	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+address of college	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+how to reach college	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+college location	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+college address	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+wheres the college	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+how can I reach college	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+whats is the college address	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+what is the address of college	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+address	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+location	<a target="_blank" href="ADD YOU GOOGLE MAP LINK HERE"> here</a>
+hostel facility	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel servive	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel location	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel address	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel facilities	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel fees	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+Does college provide hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+Is there any hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+Where is hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+do you have hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+do you guys have hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel capacity	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+what is the hostel fee	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+how to get in hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+what is the hostel address	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+how far is hostel from college	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+hostel college distance	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+where is the hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+how big is the hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+distance between college and hostel	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+distance between hostel and college	For hostel detail visit <a target="_blank" href="ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS"> here</a>
+events organised	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+list of events	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+list of events organised in college	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+list of events conducted in college	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+What events are conducted in college	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+Are there any event held at college	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+Events?	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+functions	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+what are the events	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+tell me about events	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+what about events	For event detail visit <a target="_blank" href="ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE"> here</a>
+document to bring	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents needed for admision	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents needed at the time of admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents needed during admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents required for admision	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents required at the time of admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents required during admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+What document are required for admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+Which document to bring for admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+what documents do i need	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+what documents do I need for admission	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+documents needed	To know more about document required visit <a target="_blank" href="ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE"> here</a>
+size of campus	My College has total 2 floors 
+building size	My College has total 2 floors 
+How many floors does college have	My College has total 2 floors 
+floors in college	My College has total 2 floors 
+floors in college	My College has total 2 floors 
+how tall is UNI's College of Engineering college building	My College has total 2 floors 
+floors	My College has total 2 floors 
+Syllabus for IT	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+what is the Information Technology syllabus	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+syllabus	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+timetable	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+what is IT syllabus	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+syllabus	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+What is next lecture	Timetable provide direct to the students OR To know about syllabus visit <a target="_blank" href="TIMETABLE LINK"> here</a>
+is there any library	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+library facility	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+library facilities	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+do you have library	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+does the college have library facility	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+college library	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+where can i get books	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+book facility	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+Where is library	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+Library	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+Library information	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+Library books information	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+Tell me about library	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+how many libraries	There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target="blank" href="ADD LIBRARY DETAIL LINK">here</a>
+how is college infrastructure	Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection
+infrastructure	Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection
+college infrastructure	Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection
+food facilities	Our university has canteen with variety of food available
+canteen facilities	Our university has canteen with variety of food available
+canteen facility	Our university has canteen with variety of food available
+is there any canteen	Our university has canteen with variety of food available
+Is there a cafetaria in college	Our university has canteen with variety of food available
+Does college have canteen	Our university has canteen with variety of food available
+Where is canteen	Our university has canteen with variety of food available
+where is cafetaria	Our university has canteen with variety of food available
+canteen	Our university has canteen with variety of food available
+Food	Our university has canteen with variety of food available
+Cafetaria	Our university has canteen with variety of food available
+food menu	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+food in canteen	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+Whats there on menu	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+what is available in college canteen	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+what foods can we get in college canteen	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+food variety	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+What is there to eat?	we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu
+What is college placement	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+Which companies visit in college	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+What is average package	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+companies visit	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+package	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+About placement	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+placement	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+recruitment	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+companies	To know about placement visit <a target="_blank" href="PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE">here</a>
+Who is HOD	All engineering departments have only one hod XYZ who available on (Place name)
+Where is HOD	All engineering departments have only one hod XYZ who available on (Place name)
+it hod	All engineering departments have only one hod XYZ who available on (Place name)
+name of it hod	All engineering departments have only one hod XYZ who available on (Place name)
+Who is computer HOD	All engineering departments have only one hod XYZ who available on (PLACE NAME)
+Where is computer HOD	All engineering departments have only one hod XYZ who available on (PLACE NAME)
+computer hod	All engineering departments have only one hod XYZ who available on (PLACE NAME)
+name of computer hod	All engineering departments have only one hod XYZ who available on (PLACE NAME)
+Who is extc HOD	Different school wise hod are different.So be more clear with your school or department
+Where is  extc HOD	Different school wise hod are different.So be more clear with your school or department
+extc hod	Different school wise hod are different.So be more clear with your school or department
+name of extc hod	Different school wise hod are different.So be more clear with your school or department
+what is the name of principal	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+whatv is the principal name	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+principal name	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+Who is college principal	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+Where is principal's office	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+principal	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+name of principal	XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate
+exam dates	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+exam schedule	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+When is semester exam	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+Semester exam timetable	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+sem	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+semester	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+exam	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+when is exam	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+exam timetable	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+exam dates	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+when is semester	Here is the Academic Calendar  <a target="_blank" href="YOUR ACADEMIC CALENDER">website</a>
+what is the process of admission	Application can also be submitted online through the Unversity's  <a target="_blank" href="LINK OF ADMISSION DOCUMENT">website</a>
+what is the admission process	Application can also be submitted online through the Unversity's  <a target="_blank" href="LINK OF ADMISSION DOCUMENT">website</a>
+How to take admission in your college	Application can also be submitted online through the Unversity's  <a target="_blank" href="LINK OF ADMISSION DOCUMENT">website</a>
+What is the process for admission	Application can also be submitted online through the Unversity's  <a target="_blank" href="LINK OF ADMISSION DOCUMENT">website</a>
+admission	Application can also be submitted online through the Unversity's  <a target="_blank" href="LINK OF ADMISSION DOCUMENT">website</a>
+admission process	Application can also be submitted online through the Unversity's  <a target="_blank" href="LINK OF ADMISSION DOCUMENT">website</a>
+scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+Is scholarship available	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship engineering	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship it	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship ce	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship mechanical	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship civil	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship chemical	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship for AI/ML	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+available scholarships	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship for computer engineering	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship for IT engineering	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship for mechanical engineering	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship for civil engineering	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+scholarship for chemical engineering	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+list of scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+comps scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+IT scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+mechanical scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+civil scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+chemical scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+automobile scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+first year scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+second year scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+third year scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+fourth year scholarship	Many government scholarships are supported by our university. For details and updates visit <a target="_blank" href="(SCHOLARSHIP DETAILS LINK)">here</a>
+What facilities college provide	Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen
+College facility	Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen
+What are college facilities	Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen
+facilities	Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen
+facilities provided	Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen
+max number of students	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+number of seats per branch	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+number of seats in each branch	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+maximum number of seats	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+maximum students intake	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+What is college intake	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+how many stundent are taken in each branch	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+seat allotment	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+seats	For IT, Computer and extc 60 per branch and seat may be differ for different department.
+college dress code	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+college dresscode	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+what is the uniform	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+can we wear casuals	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+Does college have an uniform	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+Is there any uniform	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+uniform	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+what about uniform	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+do we have to wear uniform	ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER
+what are the different committe in college	For the various committe in college contact this number: ADD NUMBER
+different committee in college	For the various committe in college contact this number: ADD NUMBER
+Are there any committee in college	For the various committe in college contact this number: ADD NUMBER
+Give me committee details	For the various committe in college contact this number: ADD NUMBER
+committee	For the various committe in college contact this number: ADD NUMBER
+how many committee are there in college	For the various committe in college contact this number: ADD NUMBER
+I love you	I am not program for this, please ask appropriate query
+Will you marry me	I am not program for this, please ask appropriate query
+Do you love me	I am not program for this, please ask appropriate query
+fuck	please use appropriate language
+fuck	Maintaining decency would be appreciated
+bitch	please use appropriate language
+bitch	Maintaining decency would be appreciated
+shut up	please use appropriate language
+shut up	Maintaining decency would be appreciated
+hell	please use appropriate language
+hell	Maintaining decency would be appreciated
+stupid	please use appropriate language
+stupid	Maintaining decency would be appreciated
+idiot	please use appropriate language
+idiot	Maintaining decency would be appreciated
+dumb ass	please use appropriate language
+dumb ass	Maintaining decency would be appreciated
+asshole	please use appropriate language
+asshole	Maintaining decency would be appreciated
+fucker	please use appropriate language
+fucker	Maintaining decency would be appreciated
+holidays	Academic calender is given to you by your class-soordinators after you join your respective classes
+when will semester starts	Academic calender is given to you by your class-soordinators after you join your respective classes
+when will semester end	Academic calender is given to you by your class-soordinators after you join your respective classes
+when is the holidays	Academic calender is given to you by your class-soordinators after you join your respective classes
+list of holidays	Academic calender is given to you by your class-soordinators after you join your respective classes
+Holiday in these year	Academic calender is given to you by your class-soordinators after you join your respective classes
+holiday list	Academic calender is given to you by your class-soordinators after you join your respective classes
+about vacations	Academic calender is given to you by your class-soordinators after you join your respective classes
+about holidays	Academic calender is given to you by your class-soordinators after you join your respective classes
+When is vacation	Academic calender is given to you by your class-soordinators after you join your respective classes
+When is holidays	Academic calender is given to you by your class-soordinators after you join your respective classes
+how long will be the vacation	Academic calender is given to you by your class-soordinators after you join your respective classes
+sports and games	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+give sports details	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+sports infrastructure	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+sports facilities	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+information about sports	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+Sports activities	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+please provide sports and games information	Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target="_blank" href=/"(LINK IF HAVE)">here</a>
+okk	I am glad I helped you
+okk	welcome, anything else i can assist you with?
+okie	I am glad I helped you
+okie	welcome, anything else i can assist you with?
+nice work	I am glad I helped you
+nice work	welcome, anything else i can assist you with?
+well done	I am glad I helped you
+well done	welcome, anything else i can assist you with?
+good job	I am glad I helped you
+good job	welcome, anything else i can assist you with?
+thanks for the help	I am glad I helped you
+thanks for the help	welcome, anything else i can assist you with?
+Thank You	I am glad I helped you
+Thank You	welcome, anything else i can assist you with?
+its ok	I am glad I helped you
+its ok	welcome, anything else i can assist you with?
+Thanks	I am glad I helped you
+Thanks	welcome, anything else i can assist you with?
+Good work	I am glad I helped you
+Good work	welcome, anything else i can assist you with?
+k	I am glad I helped you
+k	welcome, anything else i can assist you with?
+ok	I am glad I helped you
+ok	welcome, anything else i can assist you with?
+okay	I am glad I helped you
+okay	welcome, anything else i can assist you with?
+what can you do	I can answer to low-intermediate questions regarding college
+what can you do	You can ask me questions regarding college, and i will try to answer them
+what are the thing you can do	I can answer to low-intermediate questions regarding college
+what are the thing you can do	You can ask me questions regarding college, and i will try to answer them
+things you can do	I can answer to low-intermediate questions regarding college
+things you can do	You can ask me questions regarding college, and i will try to answer them
+what can u do for me	I can answer to low-intermediate questions regarding college
+what can u do for me	You can ask me questions regarding college, and i will try to answer them
+how u can help me	I can answer to low-intermediate questions regarding college
+how u can help me	You can ask me questions regarding college, and i will try to answer them
+why i should use you	I can answer to low-intermediate questions regarding college
+why i should use you	You can ask me questions regarding college, and i will try to answer them
+ragging	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+is ragging practice active in college	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+does college have any antiragging facility	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+is there any ragging cases	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+is ragging done here	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+ragging against	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+antiragging facility	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+ragging juniors	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+ragging history	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+ragging incidents	We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging
+hod	HODs differ for each branch, please be more specific like: (HOD it)
+hod name	HODs differ for each branch, please be more specific like: (HOD it)
+who is the hod	HODs differ for each branch, please be more specific like: (HOD it)
+Mess TimeTable	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
+what is the Mess Table	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
+Bus Timetable	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
+timetable	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
+what is the timetable	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
+what is the bus timetable	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
+Academic Calander	Timetable Link visit <a target="_blank" href="https://lightningmcqueen-95.github.io/collage/index.html"> here</a>
