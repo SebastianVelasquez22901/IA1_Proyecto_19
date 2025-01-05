@@ -1,3 +1,4 @@
+import unicodedata
 import json
 import numpy as np
 import typing
@@ -7,6 +8,23 @@ import einops
 
 import tensorflow as tf
 import tensorflow_text as tf_text
+
+def eliminar_acentos(cadena):
+    # Normalizar la cadena
+    cadena_normalizada = unicodedata.normalize('NFD', cadena)
+    #acentos_eliminados = any(unicodedata.category(char) == 'Mn' for char in cadena_normalizada)
+    acentos_eliminados = False
+    caracteres_sin_acentos = []
+    # Eliminar los caracteres de acento
+    for char in cadena_normalizada:
+        if unicodedata.category(char) == 'Mn':  # Si es un carácter de marca no espaciada (acento)
+            acentos_eliminados = True
+        else:
+            caracteres_sin_acentos.append(char)
+    
+    cadena_sin_acentos = ''.join(caracteres_sin_acentos)
+    #cadena_sin_acentos = ''.join(char for char in cadena_normalizada if unicodedata.category(char) != 'Mn')
+    return cadena_sin_acentos, acentos_eliminados
 
 class ShapeChecker():
     def __init__(self):
@@ -56,7 +74,12 @@ def load_data_from_json(path, limit=None):
         target = []
         for item in data:
             for title in item['titles']:
+                texto_sin_acentos, isCambiado = eliminar_acentos(title)
+                #print(texto_sin_acentos)
                 context.append(title)
+                if isCambiado:
+                    context.append(texto_sin_acentos)
+                    target.append(item['function_code'])
                 target.append(item['function_code'])
 
         context = np.array(context)
@@ -106,7 +129,7 @@ def tf_lower_and_split_punct(text):
     text = tf.strings.join(['[START]', text, '[END]'], separator=' ')
     return text
 
-max_vocab_size = 8000  # Ajusta según sea necesario
+max_vocab_size = 10000  # Ajusta según sea necesario
 
 context_text_processor = tf.keras.layers.TextVectorization(
     standardize=tf_lower_and_split_punct,
